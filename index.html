@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mihajlo Mrsic Portfolio</title>
+  <link rel="icon" type="image/jpeg" href="Profilna2.jpeg">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js" defer></script>
+  <script src="sendMail.js" defer></script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand"><u>HOME</u></div>
+<!-- <nav aria-label="Main">
+<img src="photos/Screenshot 2025-09-01 094712.png" alt="False-Color" class="logo">
+</nav> -->
+    </header>
+
+    <main>
+    <section class="hero" aria-labelledby="hero-head">
+      <div class="hero-left">
+        <h1 id="hero-head">Mihajlo Mršić demo reel.</h1>
+
+        <aside class="panel">
+          <iframe 
+            src="https://www.youtube.com/embed/T55-dwmur4s" 
+            title="YouTube video player"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </aside>
+      </div>
+    </section>
+
+      <section id="contact" style="margin-top:0px;">
+        <div class="contact-flex">
+          <div class="contact-left">
+            <h2 class="contact-title">
+              Need a Video Editor or a Colorist? Get in touch.
+            </h2>
+
+            <form id="contact-form" class="contact-form">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+
+              <button type="submit">Send Message</button>
+            </form>
+
+            <p class="contact-email">
+              Email: <a href="mailto:mrsic.mihajlo00@gmail.com">
+                mrsic.mihajlo00@gmail.com
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div>© <span id="year"></span> All Rights Reserved</div>
+        <div><a href="#"></a></div>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
